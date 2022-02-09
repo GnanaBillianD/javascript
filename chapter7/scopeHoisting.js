@@ -16,7 +16,8 @@ console.log(b);//undefined
 {
     var b = 10;
 }
-console.log(b);//10
+console.log(b);//10 
+
 
 //functionName Hoisting
 funs();
