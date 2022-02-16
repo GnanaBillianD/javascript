@@ -8,3 +8,5 @@ console.log(typeof b)
 let c = "5" + "";
 console.log(c);
 
+
+

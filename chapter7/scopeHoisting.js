@@ -33,12 +33,12 @@ function funs(){
 //   console.log("hi 2");
 // }
 
-
+fun();
 var fun = function(){
   console.log("hi 2");
 }
 function fun(){
   console.log("hi 1");
 }
-fun();
+
 
