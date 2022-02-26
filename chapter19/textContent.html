@@ -1,0 +1,32 @@
+    <!DOCTYPE html>
+    <html>
+        <body> 
+            <title>www.karthi</title>
+            <h1 style="font-size: 200%"> hi this  is karthi</h1>
+            <p id="demo" onclick="myFunction()">click to change text</p>
+            <button id="btn">click here</button>
+            <button id="btn1"> click </button>
+            <p id="functn">in this page</p>
+            <p id="tit">short life story about karthi</p>
+            <script>
+                let button= document.getElementById("btn");
+                let button1= document.getElementById("btn1");
+                let func = document.getElementById("functn")
+                let str = document.getElementById("tit")
+                function myFunction(){
+                    document.getElementById("demo").textContent = "404 page not found";
+                }
+                button.addEventListener('click', function(event){
+                    func.textContent= "now we discuss about karhti"
+                    document.body.style.backgroundColor = "green";
+                })
+                button1.addEventListener('mousemove',function (){
+                    //use mouseout,mouseover,mousemove
+                    str.textContent =" Karthik Sivakumar (born 25 May 1977), better known by his stage name Karthi, is an Indian actor who works predominantly in Tamil cinema."
+                })
+            </script>
+
+      
+
+        </body>
+    </html>

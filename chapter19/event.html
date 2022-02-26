@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head></head>
+<body>  
+    <p>good morning</p>    
+    <p>Click anywhere in the document to perform a calculation.</p>
+    <p id="demo" ></p>
+    <script>
+        let p1 = 20;
+        let p2 = 30;
+
+        document.addEventListener("mousemove", function () {
+            myFunction(p1,p2);          
+        });
+        function myFunction(a,b){
+            let result = a * b;
+            document.getElementById("demo").innerHTML = result; 
+            document.body.style.backgroundColor = "red";
+        }
+    </script>
+
+
+</body>
+</html></html>

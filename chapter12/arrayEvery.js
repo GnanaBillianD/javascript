@@ -1,6 +1,5 @@
+//every check the all array value with the condition. if the condition is true, it will be print "true".  otherwise "false"
 //using array, normal function method
-//every check the value on array '10' or greater than 10, if we give less than '10' value it will be "false"
-//if the condition check '0' equal or greater,it will be true. less than '0', it will be false 
 const nums = [1, 2, 3, 4, 5];
 function a(items){
     return items > 0;
